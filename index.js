@@ -9,8 +9,9 @@ const PORT = 3000;
 
 // Define a route that handles GET requests to the root URL ("/")  
 server.get("/", (req, res) => {
+    console.log("Hellow there")
     // Send a response with the text "Hello, API!" when this route is accessed  
-    res.send("Hello, API!");
+    res.send("Hello, People!");
 });
 
 
