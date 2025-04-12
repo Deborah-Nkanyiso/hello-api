@@ -5,11 +5,12 @@ const express = require("express");
 const server = express();
 
 // Define the port number for the server to listen   
-const PORT = 3000;  
+const PORT = 3010;  
 
 // Define a route that handles GET requests to the root URL ("/")  
 server.get("/", (req, res) => {
     console.log("Hellow there")
+    console.log("merge conflict test")
     // Send a response with the text "Hello, API!" when this route is accessed  
     res.send("Hello, People!");
 });
@@ -22,8 +23,8 @@ server.listen(PORT, () => {
 // To push code to remote,/
 // 1. git commit -am "What changed and where and why"
 // git push
-
-// Get from remote
+te
 // git pull
 
+// Get from remo
 // 
