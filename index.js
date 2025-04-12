@@ -18,3 +18,12 @@ server.get("/", (req, res) => {
 server.listen(PORT, () => {
     console.log(`Server is running on http://localhost:` + PORT);
 });
+
+// To push code to remote,/
+// 1. git commit -am "What changed and where and why"
+// git push
+
+// Get from remote
+// git pull
+
+// 
